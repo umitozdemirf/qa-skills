@@ -278,6 +278,15 @@ Contributions are welcome for:
 - Scripts for automated detection and analysis
 - CI integration examples
 
+## Examples
+
+Example outputs are now included for high-value skills:
+
+- [api-test-generator example](/Users/umitozdemir/proj/hepapi/qa-skills/qa-skills-plugin/skills/api-test-generator/examples/fastapi-users-pytest.md)
+- [test-plan-generator example](/Users/umitozdemir/proj/hepapi/qa-skills/qa-skills-plugin/skills/test-plan-generator/examples/checkout-feature-test-plan.md)
+- [risk-analyzer example](/Users/umitozdemir/proj/hepapi/qa-skills/qa-skills-plugin/skills/risk-analyzer/examples/pr-risk-report.md)
+- [security-test-generator example](/Users/umitozdemir/proj/hepapi/qa-skills/qa-skills-plugin/skills/security-test-generator/examples/auth-api-security-cases.md)
+
 ## Validation
 
 Validate the skill pack and regenerate cross-agent command wrappers with:
