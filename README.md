@@ -283,9 +283,14 @@ Contributions are welcome for:
 Example outputs are now included for high-value skills:
 
 - [api-test-generator example](/Users/umitozdemir/proj/hepapi/qa-skills/qa-skills-plugin/skills/api-test-generator/examples/fastapi-users-pytest.md)
+- [service-test-generator example](/Users/umitozdemir/proj/hepapi/qa-skills/qa-skills-plugin/skills/service-test-generator/examples/order-lifecycle-flow.md)
+- [e2e-test-generator example](/Users/umitozdemir/proj/hepapi/qa-skills/qa-skills-plugin/skills/e2e-test-generator/examples/login-flow-playwright.md)
+- [input-validation-tester example](/Users/umitozdemir/proj/hepapi/qa-skills/qa-skills-plugin/skills/input-validation-tester/examples/signup-form-boundary-cases.md)
 - [test-plan-generator example](/Users/umitozdemir/proj/hepapi/qa-skills/qa-skills-plugin/skills/test-plan-generator/examples/checkout-feature-test-plan.md)
 - [risk-analyzer example](/Users/umitozdemir/proj/hepapi/qa-skills/qa-skills-plugin/skills/risk-analyzer/examples/pr-risk-report.md)
 - [security-test-generator example](/Users/umitozdemir/proj/hepapi/qa-skills/qa-skills-plugin/skills/security-test-generator/examples/auth-api-security-cases.md)
+- [test-coverage-analyzer example](/Users/umitozdemir/proj/hepapi/qa-skills/qa-skills-plugin/skills/test-coverage-analyzer/examples/coverage-gap-report.md)
+- [test-smell-detector example](/Users/umitozdemir/proj/hepapi/qa-skills/qa-skills-plugin/skills/test-smell-detector/examples/test-smell-report.md)
 
 ## Validation
 
