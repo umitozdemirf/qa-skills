@@ -1,0 +1,8 @@
+{
+  "name": "qa-skills",
+  "description": "Set of QA and testing skills for Claude Code.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Umit Ozdemir"
+  }
+}

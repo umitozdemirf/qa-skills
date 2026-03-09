@@ -1,0 +1,16 @@
+import pytest
+
+
+@pytest.mark.anyio
+async def test_list_{{ resource_slug }}_returns_ok(api_client):
+    response = await api_client.get("{{ list_path }}")
+
+    assert response.status_code == 200
+    assert response.json() is not None
+
+
+@pytest.mark.anyio
+async def test_get_{{ resource_slug }}_with_unknown_id_returns_not_found(api_client):
+    response = await api_client.get("{{ detail_path }}")
+
+    assert response.status_code == 404

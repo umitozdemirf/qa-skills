@@ -1,0 +1,11 @@
+description = "Generate multi-step scenario-based service tests from OpenAPI/Swagger specs with data chaining across endpoints."
+
+prompt = """Use the skill definition at `qa-skills-plugin/skills/service-test-generator/SKILL.md`.
+
+Follow its deterministic execution flow exactly.
+Load only the references you need from `qa-skills-plugin/skills/service-test-generator/references/`.
+Treat `examples/`, `scripts/`, `test/`, and `assets/` as optional helpers when they exist.
+
+Apply the skill to this request: {{args}}
+If `{{args}}` is empty, infer the target from the current conversation and repository context.
+"""

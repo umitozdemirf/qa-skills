@@ -1,0 +1,11 @@
+description = "Generate end-to-end browser and API tests using Playwright ecosystem (Playwright Test, Playwright CLI, Playwright MCP)."
+
+prompt = """Use the skill definition at `qa-skills-plugin/skills/e2e-test-generator/SKILL.md`.
+
+Follow its deterministic execution flow exactly.
+Load only the references you need from `qa-skills-plugin/skills/e2e-test-generator/references/`.
+Treat `examples/`, `scripts/`, `test/`, and `assets/` as optional helpers when they exist.
+
+Apply the skill to this request: {{args}}
+If `{{args}}` is empty, infer the target from the current conversation and repository context.
+"""

@@ -1,0 +1,19 @@
+import { describe, expect, it } from "vitest"
+import request from "supertest"
+
+import { app } from "../../src/app"
+
+describe("{{ resource_name }} API", () => {
+  it("lists {{ resource_name }} successfully", async () => {
+    const response = await request(app).get("{{ list_path }}")
+
+    expect(response.status).toBe(200)
+    expect(response.body).toBeDefined()
+  })
+
+  it("returns 404 for an unknown {{ resource_name }} id", async () => {
+    const response = await request(app).get("{{ detail_path }}")
+
+    expect(response.status).toBe(404)
+  })
+})

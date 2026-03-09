@@ -1,0 +1,13 @@
+{
+  "name": "umitozdemirf",
+  "owner": {
+    "name": "Umit Ozdemir"
+  },
+  "plugins": [
+    {
+      "name": "qa-skills",
+      "source": "./qa-skills-plugin",
+      "description": "QA and testing skills for Claude Code."
+    }
+  ]
+}
